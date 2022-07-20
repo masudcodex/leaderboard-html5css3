@@ -132,40 +132,6 @@ Blog Section CSS--------
     width: 100%;
 }
 
-/* Upcoming Match CSS start*/
-
-.blog-items {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 45px 10px;
-    border: 1px solid #E8E8E8;
-    border-radius: 5px;
-}
-.blog-images {
-    display: flex;
-    align-items: center;
-}
-.blog-images-middle {
-    font-size: 18px;
-    font-weight: 600;
-}
-.blog-image-single {
-    width: 95px;
-    margin: 10px;
-}
-.match-schedule {
-    text-align: center;
-}
-.match-schedule p{
-    font-size: 14px;
-    color: #4D4D4D;
-    text-align: center;
-    margin: 0;
-}
-
-/* Upcoming Match CSS end */
-
 .blog-info {
     border-color: #E8E8E8;
     border-style: solid;
@@ -217,6 +183,73 @@ Blog Section CSS--------
     border-radius: 5px;
     background-color: #DD0000;
 }
+
+/* Upcoming Match CSS start*/
+
+.blog-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+.blog-images {
+    display: flex;
+    align-items: center;
+}
+.blog-images-middle {
+    font-size: 18px;
+    font-weight: 600;
+}
+.blog-image-single {
+    width: 95px;
+    margin: 10px;
+}
+.match-schedule {
+    text-align: center;
+}
+.match-schedule p{
+    font-size: 14px;
+    color: #4D4D4D;
+    text-align: center;
+    margin: 0;
+}
+
+/* Upcoming Match CSS end */
+
+/* All Groups CSS start*/
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-content {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.blog-item-single {
+    display: flex;
+    align-items: center;
+    background-color: #EEEEE4;
+    padding: 10px 52px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.blog-item-single-image {
+    width: 25px;
+    margin-right: 15px;
+}
+.blog-item-single-image img {
+    width: 100%;
+}
+.blog-item-single-text p {
+    margin: 0 0 5px;
+}
+
+/* All Groups CSS end*/
 
 /*------------------------ 
 Footer Section CSS--------
