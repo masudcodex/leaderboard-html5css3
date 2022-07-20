@@ -125,12 +125,47 @@ Blog Section CSS--------
     margin-left: 30px;
 }
 .blog-image {
-    width: 282px;
+    width: 275px;
     height: auto;
 }
 .blog-image img {
     width: 100%;
 }
+
+/* Upcoming Match CSS start*/
+
+.blog-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+.blog-images {
+    display: flex;
+    align-items: center;
+}
+.blog-images-middle {
+    font-size: 18px;
+    font-weight: 600;
+}
+.blog-image-single {
+    width: 95px;
+    margin: 10px;
+}
+.match-schedule {
+    text-align: center;
+}
+.match-schedule p{
+    font-size: 14px;
+    color: #4D4D4D;
+    text-align: center;
+    margin: 0;
+}
+
+/* Upcoming Match CSS end */
+
 .blog-info {
     border-color: #E8E8E8;
     border-style: solid;
@@ -151,7 +186,7 @@ Blog Section CSS--------
     margin: 15px 0;
 }
 .blog-title h3{
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 600;
     margin: 0 0 10px;
 }
@@ -265,10 +300,10 @@ Tablet Responsiveness--------
     .blog-navigation{
         flex-direction: row;
         justify-content: center;
-        width: 100%;
+        width: 93%;
         background-color: #FFFFFF;
         align-items: center;
-        margin-bottom: 25px;
+        margin: 0 30px 25px 30px;
     }
     .blog-navigation a {
         width: 100%;
